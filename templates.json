@@ -1,0 +1,58 @@
+{
+    "Katana Sushi": {
+        "amount": {
+            "x1": 18,
+            "x2": 660,
+            "y1": 692,
+            "y2": 961
+        }
+    },
+    "Dee Marernlos Raretaaerant": {
+        "amount": {
+            "x1": 229,
+            "x2": 352,
+            "y1": 697,
+            "y2": 904
+        }
+    },
+    "Heo ptig ad": {
+        "amount": {
+            "x1": 76,
+            "x2": 397,
+            "y1": 684,
+            "y2": 914
+        }
+    },
+    "S305 E PACIFIC COAST HEY": {
+        "amount": {
+            "x1": 136,
+            "x2": 598,
+            "y1": 658,
+            "y2": 938
+        }
+    },
+    "30LOEN BOWL TERI": {
+        "amount": {
+            "x1": 103,
+            "x2": 604,
+            "y1": 530,
+            "y2": 753
+        }
+    },
+    "GENERAL.": {
+        "amount": {
+            "x1": 152,
+            "x2": 411,
+            "y1": 545,
+            "y2": 743
+        }
+    },
+    "LANDFALL RESTAURANT": {
+        "amount": {
+            "x1": 65,
+            "x2": 586,
+            "y1": 471,
+            "y2": 672
+        }
+    }
+}
