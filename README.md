@@ -106,6 +106,13 @@ Support for 6 languages:
    
    Navigate to `http://localhost:8501`
 
+   **Note**
+   In case your `8501` is busy:
+   Run command:
+   ```bash
+   streamlit run app.py --server.port 8502
+   ```
+
 ---
 
 ## 🔧 Configuration
@@ -128,7 +135,17 @@ Support for 6 languages:
 
 ## Troubleshoot
 
+| Problem | Fix |
+|---------|-----|
+| `TesseractNotFoundError` | Check `TESSERACT_PATH` in `.env` points to the `.exe` |
+| PDF upload fails | Verify `POPPLER_PATH` points to the `bin` folder |
+| Gemini API error | Confirm your API key is valid and within quota |
+| Page not loading | Check terminal for errors; ensure port 8501 is free |
+| Poor OCR results | Use a clearer, well-lit image at 300 DPI or higher |
+| `None` values in config | Ensure `.env` is in the root folder with no extra spaces |
 
+
+---
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -144,12 +161,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📞 Support
-
-For support, open an issue on GitHub.
 
 ---
 
