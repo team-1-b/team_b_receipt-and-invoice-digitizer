@@ -39,12 +39,18 @@
 - Get real-time status updates
 - View remaining budget
 
+### 8. **ERP Integration and API**
+- Provides Synchonised API support.
+- Multiple API endpoints for Easy communication
+- Supports ERPNext, a open source ERP system.
+
 ---
 
 ## 🛠️ Technology Stack
 
 ### Backend
 - **Python 3.8+**: Core programming language
+- **fastapi**: API design framework
 - **Streamlit**: Web framework
 - **SQLAlchemy**: Database ORM
 - **SQLite**: Database
@@ -59,6 +65,7 @@
 - **Pandas**: Data manipulation
 - **NumPy**: Numerical computing
 - **Plotly**: Interactive visualizations
+- **Matplotlib**: Pie Chart Builder.
 
 ### Export & Reporting
 - **ReportLab**: PDF generation
@@ -69,7 +76,7 @@
 ## 📁 Project Structure
 
 ```
-Receipt-Vault-Analyzer/
+mydigibill/
 ├── ai/                          # AI & ML modules
 │   ├── gemini_client.py        # Gemini API integration
 │   ├── insights.py             # AI insights generation
@@ -80,6 +87,9 @@ Receipt-Vault-Analyzer/
 │   ├── forecasting.py          # Spending predictions
 │   └── search.py               # Search functionality
 │
+├── api/                        # ERP Integration and API design module
+│   ├── main.py                 # Uses Fastapi for API design
+|
 ├── config/                      # Configuration
 │   ├── config.py               # App configuration
 │   └── translations.py         # Multi-language support
@@ -88,12 +98,6 @@ Receipt-Vault-Analyzer/
 │   ├── db.py                   # Database initialization
 │   ├── models.py               # SQLAlchemy models
 │   └── queries.py              # Database queries
-│
-├── docs/                        # Documentation
-│   ├── ANALYTICS_SUMMARIES_ADDED.md
-│   ├── COMPLETE_UI_OVERHAUL.md
-│   ├── FIX_SUMMARY.md
-│   └── UI_ENHANCEMENT_SUMMARY.md
 │
 ├── ocr/                         # OCR processing
 │   ├── extractor.py            # Text extraction
