@@ -1,6 +1,6 @@
-# 🧾 Receipt Vault Analyzer
+# 🧾 Mydigibill
 
-A powerful, AI-powered receipt management and analytics platform built with Streamlit and Google Gemini AI.
+A powerful, AI-powered receipt and expense management platform built with Streamlit, OCR and Google Gemini AI.
 
 ![Streamlit](https://img.shields.io/badge/streamlit-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-green)
