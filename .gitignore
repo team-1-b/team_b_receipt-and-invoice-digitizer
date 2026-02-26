@@ -1,10 +1,10 @@
 nevenv/
 .env
-.venv
+.venv/
 __pycache__/
+Documents/
 .vscode/
 *.pyc
-data/
 test_*.py
 smtp_log.txt
 *.db
