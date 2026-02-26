@@ -120,17 +120,3 @@ Receipt-Vault-Analyzer/
 └── README.md                    # This file
 ```
 
----
-
-## 🎨 Screenshots
-
-### Landing Page
-Beautiful hero section with animated gradient background and feature showcase.
-
-### Dashboard
-Clean, modern dashboard with key metrics and export options.
-
-### Analytics
-Interactive charts and AI-powered insights for spending analysis.
-
----
