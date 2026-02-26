@@ -117,7 +117,6 @@ mydigibill/
 ├── utils/                       # Utility functions
 │
 ├── .env                         # Environment variables
-├── .gitignore                   # Git ignore rules
 ├── app.py                       # Main application
 ├── requirements.txt             # Dependencies
 ├── receipts.db                  # SQLite database
