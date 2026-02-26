@@ -1,10 +1,13 @@
 
 import os
+import platform
+import pytesseract
+
 
 # =========================================================
 # APPLICATION CONFIGURATION
 # =========================================================
-APP_TITLE = "Receipt Vault & Analyzer"
+APP_TITLE = "Mydigibill"
 
 # =========================================================
 # BASE DIRECTORY
@@ -21,8 +24,12 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # =========================================================
 # OCR CONFIGURATION
 # =========================================================
-TESSERACT_PATH = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-POPPLER_PATH = r"C:\Users\p.pranitha\Downloads\Release-25.12.0-0\poppler-25.12.0\Library\bin"
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = os.getenv("TESSERACT_PATH")
+    poppler_path = os.getenv("POPPLER_PATH")
+else:
+    None
+
 
 # =========================================================
 # FILE UPLOAD CONFIGURATION
