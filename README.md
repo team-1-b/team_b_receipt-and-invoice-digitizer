@@ -2,7 +2,7 @@
 
 A powerful, AI-powered receipt management and analytics platform built with Streamlit and Google Gemini AI.
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-blue)
 ![Python](https://img.shields.io/badge/python-3.8+-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
@@ -69,7 +69,7 @@ Support for 6 languages:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/receipt-vault-analyzer.git
-   cd receipt-vault-analyzer
+   cd mydigibill
    ```
 
 2. **Create virtual environment**
@@ -281,24 +281,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👨‍💻 Author
-
-**Receipt Vault Team**
-
----
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for powerful text extraction
-- Streamlit for the amazing web framework
-- PaddleOCR for OCR capabilities
-- All open-source contributors
-
----
-
 ## 📞 Support
 
-For support, email support@receiptvault.com or open an issue on GitHub.
+For support, open an issue on GitHub.
 
 ---
 
