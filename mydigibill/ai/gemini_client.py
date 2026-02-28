@@ -4,9 +4,9 @@ import re as _re
 import google.generativeai as genai  # type: ignore
 from ai.prompts import RECEIPT_EXTRACTION_PROMPT, DATA_ANALYSIS_PROMPT, CHAT_WITH_DATA_PROMPT  # type: ignore
 
-# Models to try in order — gemini-1.5-flash has the best free-tier quota
+
 _PREFERRED_MODELS = [
-    "models/gemini-1.5-flash",
+    "models/gemini-2.5-flash",
     "models/gemini-1.5-pro",
     "models/gemini-pro",
 ]
